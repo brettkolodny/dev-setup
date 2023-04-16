@@ -26,7 +26,9 @@ To fix this add the following:
 3. In `~/.zshrc` add the following:
     - `export PATH=~/.npm-packages/bin:$PATH`
     - `export NODE_PATH=~/.npm-packages/lib/node_modules`
-
+4. Look at `./npm-global.txt` and install the current binaries.
+    - Note some of them are generated from others (i.e. pnpx from pnpm) so use your best judegement!
+ 
 ## Trouble Shooting
 
 Below are some common issues I ran into and how to solve them.
@@ -55,4 +57,4 @@ If this happens `fleek apply` will fail. The fix at the moment is as follows:
 
 ## Updating
 
-Whenever a change is made to `~/.fleek.yml`, `~/.config/helix/*` run `./update.sh`.
+Whenever a change is made to `~/.fleek.yml`, `~/.config/helix/*`, or a glogal NPM package is installed run `./update.sh`.

@@ -1,0 +1,7 @@
+elm-language-server
+pnpm
+pnpx
+prettier
+tsc
+tsserver
+typescript-language-server
