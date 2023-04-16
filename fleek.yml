@@ -1,0 +1,38 @@
+aliases:
+    fleeks: cd /Users/brettkolodny/.local/share/fleek
+bling: none
+ejected: false
+flakedir: .local/share/fleek
+git:
+    autocommit: false
+    autopull: false
+    autopush: false
+    enabled: false
+name: Fleek Configuration
+packages:
+    - helix
+    - rustup
+    - deno
+    - tmux
+    - erlang
+    - gleam
+    - docker
+    - rust-analyzer
+    - nodejs
+    - bat
+    - imagemagick
+    - elixir
+    - cheat
+    - marksman
+paths:
+    - $HOME/bin
+    - $HOME/.local/bin
+programs:
+    - dircolors
+shell: zsh
+systems:
+    - arch: aarch64
+      hostname: Bretts-MacBook-Pro.local
+      os: darwin
+      username: brettkolodny
+unfree: true
