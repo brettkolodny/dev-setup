@@ -16,7 +16,6 @@ packages:
     - tmux
     - erlang
     - gleam
-    - docker
     - rust-analyzer
     - nodejs
     - bat
@@ -24,6 +23,7 @@ packages:
     - elixir
     - cheat
     - marksman
+    - vscode
 paths:
     - $HOME/bin
     - $HOME/.local/bin

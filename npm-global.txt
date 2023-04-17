@@ -2,6 +2,7 @@ elm-language-server
 pnpm
 pnpx
 prettier
+tailwindcss-language-server
 tsc
 tsserver
 typescript-language-server
