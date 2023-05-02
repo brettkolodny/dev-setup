@@ -24,6 +24,7 @@ packages:
     - cheat
     - marksman
     - vscode
+    - stripe-cli
 paths:
     - $HOME/bin
     - $HOME/.local/bin
@@ -33,6 +34,10 @@ shell: zsh
 systems:
     - arch: aarch64
       hostname: Bretts-MacBook-Pro.local
+      os: darwin
+      username: brettkolodny
+    - arch: aarch64
+      hostname: bretts-mbp.lan
       os: darwin
       username: brettkolodny
 unfree: true
