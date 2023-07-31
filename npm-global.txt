@@ -1,4 +1,7 @@
+degit
+elm
 elm-language-server
+npkill
 pnpm
 pnpx
 prettier
@@ -6,3 +9,5 @@ tailwindcss-language-server
 tsc
 tsserver
 typescript-language-server
+yarn
+yarnpkg

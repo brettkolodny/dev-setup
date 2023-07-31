@@ -15,8 +15,6 @@ packages:
     - deno
     - tmux
     - erlang
-    - gleam
-    - rust-analyzer
     - nodejs
     - bat
     - imagemagick
@@ -25,6 +23,22 @@ packages:
     - marksman
     - vscode
     - stripe-cli
+    - ngrok
+    - elixir-ls
+    - pkg-config
+    - portaudio
+    - supabase-cli
+    - wezterm
+    - erlang-ls
+    - racket
+    - go
+    - spotify-tui
+    - spotifyd
+    - lynx
+    - clojure
+    - exercism
+    - clojure-lsp
+    - leiningen
 paths:
     - $HOME/bin
     - $HOME/.local/bin
@@ -38,6 +52,14 @@ systems:
       username: brettkolodny
     - arch: aarch64
       hostname: bretts-mbp.lan
+      os: darwin
+      username: brettkolodny
+    - arch: aarch64
+      hostname: Bretts-MBP.lan
+      os: darwin
+      username: brettkolodny
+    - arch: aarch64
+      hostname: Bretts-MBP
       os: darwin
       username: brettkolodny
 unfree: true

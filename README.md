@@ -28,6 +28,15 @@ To fix this add the following:
     - `export NODE_PATH=~/.npm-packages/lib/node_modules`
 4. Look at `./npm-global.txt` and install the current binaries.
     - Note some of them are generated from others (i.e. pnpx from pnpm) so use your best judegement!
+
+## Faster Keys
+
+Run the following to increase key repeat speed:
+
+```
+defaults write -g InitialKeyRepeat -int 10 # normal minimum is 15 (225 ms)
+defaults write -g KeyRepeat -int 1 # normal minimum is 2 (30 ms)
+```
  
 ## Trouble Shooting
 
