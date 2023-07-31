@@ -7,6 +7,13 @@ Files and scripts for me to run when setting up a new system
 1. Install [fleek and Nix](https://getfleek.dev/docs/installation)
 2. Copy `./fleek.yml` to `~/.fleek.yml` 
 3. Run `fleek apply`
+4. Add the following to `~/.zshrc` to stop nix from breaking on OS updates:
+```sh
+if [ -e '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh' ]; 
+then
+  . '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh'
+fi
+``` 
 
 If all went well all of the fleek packages should now be available!
 
